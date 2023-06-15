@@ -23,7 +23,7 @@
     <nav>
         <ul class="menuprincipal">
             <li class="itemmenuprincipal"><a href="index.html">Início</a></li>
-            <li class="itemmenuprincipal"><a href="conteudo.html">Conteúdo</a></li>
+            <li class="itemmenuprincipal"><a href="conteudo.html">Artigos</a></li>
             <li class="itemmenuprincipal"><a href="about.html">Sobre nós</a></li>
         </ul>
     </nav>
@@ -43,48 +43,15 @@
             </p>
         </h2>
         </div>
-        <div class="caixadoform">
-          <form action="#" method="get" target="blank" autocomplete="off">
+        <div class="area">
+          <form class="formulario" action="#" method="get" target="blank" autocomplete="off">
               <br>
-            <fieldset class="preenchaform">
-                <p>
-                <strong>Nome completo:</strong> &nbsp;
+            <fieldset>
+               <label>Nome:</label><input class="camponome" type="text"><br>
+                <label>E-mail:</label><input class="campoemail" type="email"><br>
                 <br>
-                <br>
-                <input type="text" target="blank" id="text" name="text" placeholder="Escreva seu nome aqui" required>
-              </p>
-                <p>
-                <strong>Gênero:</strong>
-                <br>
-                <br>
-                Feminino    <input type="radio" target="blank" id="feminino" name="genero" value="feminino">
-                <br>
-                Masculino  <input type="radio" target="blank" id="masculino" name="genero" value="masculino">
-                <br>
-                Não-binárie  <input type="radio" target="blank" id="não-binárie" name="genero" value="não-binárie">
-                <br>
-              </p>
-              <p><strong>Telefone:</strong>&nbsp;
-                <br>
-                <br>
-                <input type="tel" target="blank" id="telephone" name="telephone" placeholder="DDD + número" required>
-                  </p>
-              <p>
-                <strong>E-mail:</strong>&nbsp;
-                <br>
-                <br>
-                <input type="email" target="blank" id="email" name="email" placeholder="exemplo@email.com" required>
-              </p>
-              <p>
-                <strong>Sua mensagem:</strong>&nbsp;
-                <br>
-                <br>
-                <input type="textarea" target="blank" id="textarea" name="textarea" placeholder="Escreva aqui" required>
-              </p>
-              <p>
-                  <button type="submit" target="blank" class="enviar">Enviar</button>
-                  <button type="reset" target="blank" class="resetar">Limpar</button>
-                </p>
+                <label>Mensagem:</label><br><textarea class="mensagem" cols="35" rows="8"></textarea><br>
+                <input class="botaoenviar" type="submit" value="Enviar">
             </fieldset>
             </form>
           </div>

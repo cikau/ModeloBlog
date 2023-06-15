@@ -66,20 +66,54 @@ h2 {
   text-align: center; 
 }
 
-form {
-  padding-left: 50px;
-  padding-right: 900px;
-  margin-bottom: 10px;
-  margin-top: 10px;
+.area {
+  position: relative;
+  left: 38%;
+  top: 30%;
+  width: 400px;
   height: 300px;
-  width: 300px;
 }
 
-.preenchaform {
-  padding: 5px;
+.area .formulario {
+  position: absolute;
+  display: block;
 }
 
-.preenchaform p {
-  gap: 20px;
-  padding: 25px;
+fieldset {
+  width: 350px;
+  height: 250px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
+
+.formulario label {
+  position: absolute;
+  left: 20px;
+  margin-right: 5px;
+}
+
+.formulario .camponome {
+  position: absolute;
+  left: 95px;
+  top: 23px;
+  width: 225px;
+  margin-top: 5px;
+}
+
+.formulario .campoemail {
+  position: absolute;
+  left: 95px;
+  margin-top: 5px;
+  width: 225px;
+  margin-top: 5px;
+}
+
+.formulario .mensagem {
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.formulario .botaoenviar {
+  margin-left: 50px;
+}
+
