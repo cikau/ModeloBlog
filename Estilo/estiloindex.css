@@ -17,11 +17,16 @@
     border-radius: 5px;
   }
  
-ul {
+.menuprincipal {
     display: flex;
     justify-content: space-between;
     font-size: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+    position: relative;
+    right: 175px;
 }
+
 ul li {
     list-style: none;
 }
@@ -34,3 +39,39 @@ li a {
     left: 300px;
     bottom: 100px;
 }
+
+ul li :hover {
+  color: blueviolet;
+}
+
+.titulodestaque {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subtitulodestaque {
+  margin-left: 50px;
+  padding-bottom: 20px;
+  font-size: 30px;
+  margin-bottom: 10px; 
+}
+
+.imagemartigo img {
+height: 300px;
+width: 300px;
+float: left;
+margin-left: 50px;
+}
+
+.corpotextodestaque {
+  position: relative;
+  left: 25px;
+  height: 300px;
+  width: 1000px;
+  text-align: justify;
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+
