@@ -57,3 +57,33 @@ h2 {
   font-size: 30px;
   margin-bottom: 10px; 
 }
+
+p.films {
+  margin-left: 50px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.films a {
+  text-decoration: none;
+  color: purple;
+}
+
+.films a:hover {
+  color: rgb(188, 33, 188);
+}
+
+p.books {
+  margin-left: 50px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.books a {
+  text-decoration: none;
+  color: rgb(0, 17, 128);
+}
+
+.books a:hover {
+  color: rgb(72, 72, 255);
+}
