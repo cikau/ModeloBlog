@@ -5,6 +5,11 @@
   padding: 0;
 }
 
+body {
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+
 div {
   text-align: left;
   margin-left: 5px;
@@ -87,3 +92,34 @@ p.books {
 .books a:hover {
   color: rgb(72, 72, 255);
 }
+
+p.anime {
+  margin-left: 50px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.anime a {
+  text-decoration: none;
+  color: rgb(11, 90, 90);
+}
+
+.anime a:hover {
+  color: rgb(20, 150, 150);
+}
+
+p.tvseries {
+  margin-left: 50px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.tvseries a {
+  text-decoration: none;
+  color: rgb(140, 9, 9);
+}
+
+.tvseries a:hover {
+  color: rgb(243, 29, 29);
+}
+
