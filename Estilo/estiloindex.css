@@ -6,10 +6,35 @@
   }
 
   body {
-    margin-bottom: 50px;
+    margin-bottom: 200px;
     margin-top: 10px;
+    background-image: url(/files/papel\ de\ parede\ pipoca.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .planodefundo {
+    overflow: hidden;
+    position: relative;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;    
+  }
+
+  .imgdefundo {
+    opacity: 0.4;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
   }
   
+.conteudodefundo {
+  position: relative;
+}
+
   div {
     text-align: left;
     margin-left: 5px;

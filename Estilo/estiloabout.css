@@ -6,8 +6,12 @@
 }
 
 body {
-  margin-bottom: 50px;
+  margin-bottom: 200px;
   margin-top: 10px;
+  background-image: url(/files/papel\ de\ parede\ pipoca.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 div {
