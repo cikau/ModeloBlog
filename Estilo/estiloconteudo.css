@@ -14,6 +14,8 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 div {
@@ -64,19 +66,20 @@ color: blueviolet;
   margin-bottom: 10px;
 }
 
-h2 {
-  margin-left: 50px;
+.listafilmes {
+  margin-left: 100px;
   padding-bottom: 20px;
   font-size: 40px;
   margin-bottom: 10px; 
+  margin-top: 50px;
   font-family: "Yanone Kaffeesatz";
 }
 
 p.films {
-  margin-left: 50px;
+  margin-left: 100px;
   margin-bottom: 15px;
   font-size: 20px;
-}
+  }
 
 .films a {
   text-decoration: none;
@@ -87,10 +90,26 @@ p.films {
   color: rgb(188, 33, 188);
 }
 
+.listalivros {
+  margin-left: 50px;
+  padding-bottom: 20px;
+  font-size: 40px;
+  margin-bottom: 10px; 
+  font-family: "Yanone Kaffeesatz";
+  display: flex;
+  position: relative;
+  left: 600px;
+  bottom: 250px;
+}
+
 p.books {
   margin-left: 50px;
   margin-bottom: 15px;
   font-size: 20px;
+  display: flex;
+  position: relative;
+  left: 600px;
+  bottom: 250px;
 }
 
 .books a {
@@ -102,8 +121,16 @@ p.books {
   color: rgb(72, 72, 255);
 }
 
+.listaanimes {
+  margin-left: 100px;
+  padding-bottom: 20px;
+  font-size: 40px;
+  margin-bottom: 10px; 
+  font-family: "Yanone Kaffeesatz";
+}
+
 p.anime {
-  margin-left: 50px;
+  margin-left: 100px;
   margin-bottom: 15px;
   font-size: 20px;
 }
@@ -117,10 +144,26 @@ p.anime {
   color: rgb(20, 150, 150);
 }
 
+.listaseries {
+  margin-left: 50px;
+  padding-bottom: 20px;
+  font-size: 40px;
+  margin-bottom: 10px; 
+  font-family: "Yanone Kaffeesatz";
+  display: flex;
+  position: relative;
+  left: 600px;
+  bottom: 280px;
+}
+
 p.tvseries {
   margin-left: 50px;
   margin-bottom: 15px;
   font-size: 20px;
+  display: flex;
+  position: relative;
+  left: 600px;
+  bottom: 280px;
 }
 
 .tvseries a {
