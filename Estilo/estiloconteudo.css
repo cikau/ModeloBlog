@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Yanone+Kaffeesatz:wght@500&display=swap');
+
 * {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -29,7 +31,7 @@ div {
 .menuprincipal {
   display: flex;
   justify-content: space-between;
-  font-size: 20px;
+  font-size: 25px;
   padding-left: 300px;
   padding-right: 300px;
   position: relative;
@@ -44,6 +46,7 @@ li a {
   text-decoration: none;
   color: black;
   font-weight: bold;
+  font-family: "Yanone Kaffeesatz";
   position: relative;
   left: 300px;
   bottom: 100px;
@@ -55,7 +58,8 @@ color: blueviolet;
 
 .tituloconteudo {
   text-align: center;
-  font-size: 50px;
+  font-size: 90px;
+  font-family: "Yanone Kaffeesatz";
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -63,8 +67,9 @@ color: blueviolet;
 h2 {
   margin-left: 50px;
   padding-bottom: 20px;
-  font-size: 30px;
+  font-size: 40px;
   margin-bottom: 10px; 
+  font-family: "Yanone Kaffeesatz";
 }
 
 p.films {
