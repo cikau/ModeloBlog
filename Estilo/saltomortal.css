@@ -1,18 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Yanone+Kaffeesatz:wght@500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+body {
+    margin-bottom: 200px;
+    margin-top: 10px;
+    background-image: url(/files/papel\ de\ parede\ website2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
 h1 {
     text-align: center;
     margin: 20px;
-    font-size: 50px;
+    font-size: 90px;
+    font-family: "Yanone Kaffeesatz";
 }
 .titulodasinopse {
   margin-left: 150px;
   padding-bottom: 20px;
-  font-size: 30px;
+  font-size: 50px;
+  font-family: "Yanone Kaffeesatz";
   margin-bottom: 10px; 
 }
 
