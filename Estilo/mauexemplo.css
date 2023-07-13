@@ -42,6 +42,13 @@ h1 {
     float: left;
 }
 
+.icon div {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* não permite que a imagem extrapole os limites da página ao executar a animação do hover */ 
+    border-radius: 8px;
+    }
+
 img {
     height: 400px;
     width: 300px; 
@@ -56,4 +63,9 @@ img {
     display: flex;
     position: absolute;
     top: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.icon:hover img {
+    transform: scale(1.1);
 }
